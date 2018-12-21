@@ -1,0 +1,38 @@
+.test {
+    color: red;
+    margin-top: 150px;
+    margin-left: 300px;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    flex-flow: column;
+    border: 1px solid black;
+    align-items: center; 
+    text-decoration: none;
+    justify-content: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 1.2rem;
+    
+    
+    
+}
+.test1 {
+    color: red;
+    margin-top: 150px;
+    margin-left: 300px;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    flex-flow: column;
+    border: 1px solid black;
+    align-items: center; 
+    text-decoration: none;
+    justify-content: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 1.2rem;
+    
+    
+}
+.abc {
+    display: inline-block;
+}
