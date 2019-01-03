@@ -1,0 +1,172 @@
+body {
+    margin: 0px
+}
+
+.menu {
+    display: flex;
+    height: 70px;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 35px;
+    font-size: 1.3rem;
+    background: rgba(20, 20, 20, 0.788);
+    position: fixed;
+    width: 100%;
+}
+
+.log_in {
+    justify-content: flex-end;
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+#hinh_nen {
+    background-image: url("img/1484644624512-0-0-1351-2163-crop-1484644639011.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image {
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.chu_1 {
+    color:white;
+    display: flex;
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Charmonman', cursive;
+    justify-content: center;
+    margin-top: 20px;
+}
+.chu_2 {
+    color: white;
+    display: flex;
+    font-size: 1.4rem;
+    font-family: 'Charmonman', cursive;
+    justify-content: center;
+}
+
+.thu_muc {
+    height: 540px;
+    background-image: url(img/30-hinh-nen-cac-van-go-dep-nhat-cho-desktop-1487493869-20.jpg);
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 150px;
+    margin-top: 350px;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.cap_doi {
+    font-size: 2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(img/unnamed.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    transition: 0.3s;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+   
+}
+.cap_doi:hover {
+    background-image: url(img/unnamed.jpg);
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.gia_dinh {
+    font-size: 2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    transition: 0.3s;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.gia_dinh:hover {
+    background-image: url("img/1.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.dip_le {
+    font-size: 2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url("img/Choquengaynayvn1.jpg");
+    background-size: cover;
+    transition: 0.3s;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.dip_le:hover {
+    background-image: url("img/Choquengaynayvn1.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.end {
+    height: 50px;
+    background-color: rgb(10, 44, 3);
+    font-size: 1.12rem;
+    color: rgb(66, 66, 238);
+    font-family: 'Courier New', Courier, monospace;
+    /* flex-flow: column; */
+    justify-content: center;
+    display: flex;
+}
